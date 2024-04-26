@@ -1,0 +1,33 @@
+@startuml DiagramaUMLIphone
+
+interface ReprodutorMusical {
+  + tocar()
+  + pausar()
+  + selecionarMusica()
+}
+
+interface AparelhoTelefonico {
+  + ligar()
+  + atender()
+  + iniciarCorreioVoz()
+}
+
+interface NavegadorInternet {
+  + exibirPagina()
+  + adicionarNovaAba()
+  + atualizarPagina()
+}
+
+class IPhone {
+  + tocar()
+  + pausar()
+  + selecionarMusica()
+  + ligar()
+  + atender()
+  + iniciarCorreioVoz()
+  + exibirPagina()
+  + adicionarNovaAba()
+  + atualizarPagina()
+}
+
+@enduml
